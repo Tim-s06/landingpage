@@ -66,3 +66,40 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+.contenttwo {
+    display:flex;
+    flex-direction: column;
+    padding:100px;
+}
+.headtwo{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imgtext{
+    display:flex;
+    color:#1F2937;
+    justify-content: center;
+    gap:10px;
+    
+}
+.img {
+    height:150px;
+    width:150px;
+    border: 3px solid #3882F6;
+    border-radius:10px;
+}
+.undertext {
+    text-align: center;
+    width: 170px;
+}
+.containers{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
